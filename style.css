@@ -1,0 +1,110 @@
+html{
+	height: 100%;
+}
+
+body{
+	font-family: DINAlternate-Bold;
+	color: #FEFF37;
+	height: 100%;
+	background: #3FBAD9;
+}
+
+h1{
+	font-size: 36px;
+	color: #FEFF37;
+	line-height: 42px;
+	padding-left: 1%
+}
+
+.skill{
+	border-radius: 50%;
+	cursor: pointer;
+	
+}
+
+.skill:hover{
+	stroke: #fff;
+	stroke-width: 1.5px;
+	
+}
+
+.navButton:hover{
+	border: white;
+	border-width: 1.5px;
+	border-style: solid;
+}
+
+.navBar{
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	/* bring your own prefixes */
+	transform: translate(-100%, -50%);
+	display: inline-block;
+	width: 275px;
+}
+
+.navButton{
+	color: #FFFFFF;
+	line-height: 42px;
+	font-size: 36px;
+	height: 80px;
+	width: 275px;
+	text-align:center;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.navButton p{
+	position: relative;
+  transform: translateY(-50%);
+}
+
+.navButton.back{
+	display: none;
+}
+
+.technical{
+	background: #FF9393;
+	fill: #FF9393;
+}
+
+.leadership{
+	background: #3EC381;
+	fill: #3EC381;
+}
+
+.design{
+	background: #D575E9;
+	fill: #D575E9;
+}
+
+#main_circle{
+	border: 5px solid #FFFFFF;
+	border-radius: 50%;
+	top: 15%;
+	position: absolute;
+	left: 10%;
+	
+}
+
+.main_circle_content{
+	background: #3FBAD9;
+	fill: #3FBAD9;
+}
+
+.main_circle_content:hover{
+	stroke-width: 0px;
+}
+
+#main_circle:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+
+
