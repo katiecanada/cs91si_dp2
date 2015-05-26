@@ -19,42 +19,127 @@
       {
       	"name": "prototyping", 
       	"size": 2047, 
-      	"type": "design"
+      	"type": "design", 
+      	"experiences": [
+  	  		{
+  	  			"name": "cs 247",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "cs91si",
+  	  			"size": 50
+  	  		}
+  	  	]
       },
       {
       	"name": "communication",
 	  	"size": 1375, 
-	  	"type": "leadership"
+	  	"type": "leadership", 
+	  	"experiences": [
+  	  		{
+  	  			"name": "ihum",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "pwr",
+  	  			"size": 50
+  	  		}
+  	  	]
       },
       {
       	"name": "hci",
       	"size": 5746, 
-      	"type": "technical"
+      	"type": "technical", 
+      	"experiences": [
+  	  		{
+  	  			"name": "cs 147",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "cs 247",
+  	  			"size": 50
+  	  		},
+  	  		{
+  	  			"name": "cs 376",
+  	  			"size": 200
+  	  		}
+  	  	]
       },
       {
       	"name": "databases", 
       	"size": 2202, 
-      	"type": "technical"
+      	"type": "technical",
+      	"experiences": [
+  	  		{
+  	  			"name": "cs 142",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "ebay internship",
+  	  			"size": 50
+  	  		}
+  	  	]
+      	
       },
       {
       	"name": "user testing", 
       	"size": 4382, 
-      	"type": "design"
+      	"type": "design",
+      	"experiences": [
+  	  		{
+  	  			"name": "cs classes",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "ebay internship",
+  	  			"size": 50
+  	  		}
+  	  	]
       },
       {
       	"name": "organization", 
       	"size": 1629, 
-      	"type": "leadership"
+      	"type": "leadership",
+      	"experiences": [
+  	  		{
+  	  			"name": "senior cabinet",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "alpha phi",
+  	  			"size": 50
+  	  		}
+  	  	]
       },
       {
       	"name": "networks", 
       	"size": 1675, 
-      	"type": "technical"
+      	"type": "technical",
+      	"experiences": [
+  	  		{
+  	  			"name": "cs 144",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "cs 142",
+  	  			"size": 50
+  	  		}
+  	  	]
       },
       {
       	"name": "teamwork", 
       	"size": 1000, 
-      	"type": "leadership"
+      	"type": "leadership", 
+      	"experiences": [
+  	  		{
+  	  			"name": "classes",
+  	  			"size": 100
+  	  		}, 
+  	  		{
+  	  			"name": "extracurriculars",
+  	  			"size": 50
+  	  		}
+  	  	]
       }
  ], 
  "type": "main_circle_content"
