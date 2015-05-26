@@ -137,7 +137,6 @@ d3.json("skills.json", function(error, root) {
 			var isLeft = false;
 			var lastX = 0;
 			path.on("mousedown", function(d) {
-				console.log("clicked pie");
 	        	isDown = true;
 			});
 			path.on("mousemove", function(d) {
@@ -155,6 +154,15 @@ d3.json("skills.json", function(error, root) {
 			path.on("mouseup", function(d){
 				isDown = false;
 			});
+			
+			/*rotate pie on click */
+			pi = 3.1415
+			d3.selectAll(".pie")
+			.on("click", function(d) {
+				console.log(d);
+				path.attr("transform", "translate(" + 0 + "," + 0 + ") rotate(" + (d.endAngle+(d.endAngle-d.startAngle)/2)* (180/pi) + "," + 0 + "," + 0 + ")");
+				d3.event.stopPropagation()
+			})
 
 	}
         
@@ -223,7 +231,6 @@ d3.selectAll(".navButton").filter(".design")
 
  d3.select("body")
       .on("click", function() {
-      console.log("clicked");
        	     d3.selectAll(".skill")
       		.style("display", "inline")
       		d3.selectAll(".label")
