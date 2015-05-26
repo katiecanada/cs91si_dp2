@@ -71,11 +71,11 @@ d3.json("skills.json", function(error, root) {
         .each("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     
     /* remove filter and adjust nav when zooming in and out */
-    d3.selectAll(".skill").style("display", "inline");
     d3.selectAll(".navButton").style("display", "none");
     if(d !== root){
 	    d3.selectAll(".navButton").filter(".back").style("display", "inline-block").attr("class", "navButton back "+d.type); 
     }else{
+    	d3.selectAll(".skill").style("display", "inline");
 	    d3.selectAll(".navButton").filter(".category").style("display", "inline-block"); 
     }
     
