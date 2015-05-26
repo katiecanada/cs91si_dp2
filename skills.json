@@ -8,11 +8,13 @@
   	  	"experiences": [
   	  		{
   	  			"name": "cs classes",
-  	  			"size": 100
+  	  			"size": 100,
+  	  			"description": "majored in cs. classes and description here blah blah blah"
   	  		}, 
   	  		{
   	  			"name": "ebay internship",
-  	  			"size": 50
+  	  			"size": 50,
+  	  			"description": "coded and stuff blah blah blah blah"
   	  		}
   	  	]
   	  },

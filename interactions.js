@@ -129,6 +129,32 @@ d3.json("skills.json", function(error, root) {
 			.attr("class","pie_label label"+d.type)
 			.text(function(d,i) {console.log(root2[i].name); return root2[i].name; })
 			
+			
+			/*rotate pie on click From: http://plnkr.co/edit/CmSHEWt1vsUFrRDwuIDL?p=preview*/
+			var curAngle = 0;
+			var interval = null;
+			var isDown = false;
+			var isLeft = false;
+			var lastX = 0;
+			path.on("mousedown", function(d) {
+				console.log("clicked pie");
+	        	isDown = true;
+			});
+			path.on("mousemove", function(d) {
+				if (isDown){
+					isLeft = (lastX - d3.event.x < 0);
+					lastX = d3.event.x;
+					if (isLeft){
+           				curAngle += 5;
+		   			}else{
+            			curAngle -= 5;
+					}
+					path.attr("transform", "translate(" + 0 + "," + 0 + ") rotate(" + curAngle + "," + 0 + "," + 0 + ")");
+				}
+			});
+			path.on("mouseup", function(d){
+				isDown = false;
+			});
 
 	}
         
