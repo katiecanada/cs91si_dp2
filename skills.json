@@ -7,11 +7,13 @@
   	  	"type": "technical",
   	  	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "cs classes",
   	  			"size": 100,
   	  			"description": "majored in cs. classes and description here blah blah blah"
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "ebay internship",
   	  			"size": 50,
   	  			"description": "coded and stuff blah blah blah blah"
@@ -23,11 +25,12 @@
       	"size": 2047, 
       	"type": "design", 
       	"experiences": [
-  	  		{
+  	  		{	"number": "one",
   	  			"name": "cs 247",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "cs91si",
   	  			"size": 50
   	  		}
@@ -39,10 +42,12 @@
 	  	"type": "leadership", 
 	  	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "ihum",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "pwr",
   	  			"size": 50
   	  		}
@@ -54,14 +59,17 @@
       	"type": "technical", 
       	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "cs 147",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "cs 247",
   	  			"size": 50
   	  		},
   	  		{
+  	  			"number": "three",
   	  			"name": "cs 376",
   	  			"size": 200
   	  		}
@@ -73,10 +81,12 @@
       	"type": "technical",
       	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "cs 142",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "ebay internship",
   	  			"size": 50
   	  		}
@@ -89,10 +99,12 @@
       	"type": "design",
       	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "cs classes",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "ebay internship",
   	  			"size": 50
   	  		}
@@ -104,10 +116,12 @@
       	"type": "leadership",
       	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "senior cabinet",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "alpha phi",
   	  			"size": 50
   	  		}
@@ -119,10 +133,12 @@
       	"type": "technical",
       	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "cs 144",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "cs 142",
   	  			"size": 50
   	  		}
@@ -134,10 +150,12 @@
       	"type": "leadership", 
       	"experiences": [
   	  		{
+  	  			"number": "one",
   	  			"name": "classes",
   	  			"size": 100
   	  		}, 
   	  		{
+  	  			"number": "two",
   	  			"name": "extracurriculars",
   	  			"size": 50
   	  		}

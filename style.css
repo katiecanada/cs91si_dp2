@@ -16,10 +16,19 @@ h1{
 	padding-left: 1%
 }
 
+.selected{
+	color: #FEFF37;
+	fill:  #FEFF37;
+}
+
 .skill{
 	border-radius: 50%;
 	cursor: pointer;
 	
+}
+
+.pie{
+	cursor: pointer;
 }
 
 .skill:hover{
@@ -28,10 +37,24 @@ h1{
 	
 }
 
+div.description{
+	text-align:center;
+	vertical-align: middle;
+}
+
 .navButton:hover{
 	border: white;
 	border-width: 1.5px;
 	border-style: solid;
+}
+
+.description.selected{
+	visibility: visible;
+	color:white;
+}
+
+.description{
+	visibility: hidden;
 }
 
 .navBar{
@@ -41,21 +64,24 @@ h1{
 	/* bring your own prefixes */
 	transform: translate(-100%, -50%);
 	display: inline-block;
-	width: 275px;
+	width: 30%;
 }
 
 .navButton{
 	color: #FFFFFF;
-	line-height: 42px;
-	font-size: 36px;
-	height: 80px;
-	width: 275px;
+	font-size: 24px;
+	height: 60px;
+	width: 100%;
 	text-align:center;
 	position: relative;
 	display: inline-block;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	cursor: pointer;
+	vertical-align: middle;
+	padding-top: 12px;
+	border-width: 1.5px;
+	border-style: solid;
 }
 
 .navButton p{
@@ -70,16 +96,19 @@ h1{
 .technical{
 	background: #FF9393;
 	fill: #FF9393;
+	border-color: #FF9393;
 }
 
 .leadership{
-	background: #3EC381;
-	fill: #3EC381;
+	background: #3CF095;
+	fill: #3CF095;
+	border-color:#3CF095
 }
 
 .design{
 	background: #D575E9;
 	fill: #D575E9;
+	border-color: #D575E9;
 }
 
 #main_circle{
